@@ -54,7 +54,10 @@ const CardBox = styled.div`
     margin: 20px;
     border-radius: 20px;
 
+    transition: ease-in-out 0.3s;
+
     background-color: ${(props) => (props.check == false ? '#6b6' : '#676')};
+    /* transition: ; */
 
 `
 

@@ -50,6 +50,8 @@ const Head = styled.div`
 
 const Container = styled.div`
     min-height: 100vh;
+    height: 100%;
+    /* padding-top: 40px; */
     
     background-color: #444;
 `
